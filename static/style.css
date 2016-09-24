@@ -1,24 +1,57 @@
-  body {
-  width: 900px;
-  margin-left: 10%;
-  }
-a:visited{
-  color:gray;
-}
-a{
-  text-decoration:none;
-  color:teal;
-}
 
-a:hover{
-  color:orange;
-}
 
-  ul.ticket-list {
-    list-style:none;
-  }
+/* Main Style Sheet for Gticky
+9.24.2016 */
 
-  .ticket-list > li {
-    padding: 2px;
+/* General Elements – use these to style as much as possible before resorting to creating new classes and ids.*/
 
-  }
+*{}
+
+html{}
+
+h1{}
+h2,h3{}
+h4,h5,h6{}
+
+div{}
+
+p{}
+
+a{}
+
+ul{}
+li{}
+ul li{}
+
+.button{}
+.hover{}
+.visited{}
+
+/* Div Styles – stylings for areas in rows and columns.*/
+
+.container{}
+
+
+.row{}
+
+
+/* HEADER.---------------------------------------------------------------------*/
+
+.header{}
+.menu {}
+
+/* BODY.-----------------------------------------------------------------------*/
+
+.proj-head{}
+
+.inbox{}
+
+.user{}
+
+.secondary{}
+
+.tags{}
+
+/* FOOTER.---------------------------------------------------------------------*/
+
+.footer{}
